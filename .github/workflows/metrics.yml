@@ -36,9 +36,10 @@ jobs:
         with:
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_languages_sections: recently-used
-          plugin_languages_recent_load: 400
-          plugin_languages_recent_days: 14
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_recent_load: 1000
+          plugin_languages_recent_days: 365
+          plugin_languages_details: lines, bytes-size, percentage
       - name: Midly interesting facts
         uses: lowlighter/metrics@latest
         with:
@@ -47,5 +48,13 @@ jobs:
           base: ""
           plugin_habits: yes
           plugin_habits_facts: yes
-          plugin_habits_charts: no
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
           config_timezone: Asia/Shanghai
+      - name: Using classic charts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
