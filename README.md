@@ -7,3 +7,5 @@
 ![habits.facts](/metrics.plugin.habits.facts.svg)
 
 ![stargazers](/metrics.plugin.stargazers.svg)
+
+![stargazers.chartist](/metrics.plugin.stargazers.chartist.svg)
