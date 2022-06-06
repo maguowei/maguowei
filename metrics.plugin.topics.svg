@@ -28,7 +28,7 @@
                             <div class="label" title="Django is a web application framework for Python.">django</div>
                             <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
                             <div class="label" title="TensorFlow is an open source software library for numerical computation.">tensorflow</div>
-                            <div class="label" title="TypeScript, Kubernetes, Rust, Swift, Framework, Flask, GraphQL, Ansible, Continuous integration, Serverless, PWA, Testing, Terraform, Haskell, Monitoring, Blockchain, Flutter, golang, SwiftUI, Reverse Engineering, containers, crawler, cloud-native, Erlang, tui, dataset, editor, cncf, css-framework, gRPC, proxy, design-system, workflow, service-mesh, tunnel, graph-database, chat, reverse-proxy, openapi, distributed-tracing, continuous-delivery, Authentication, swagger, lambda, load-testing, faas, crawling, scheduler, proxypool, rbac, benchmarking">and 51 more...</div>
+                            <div class="label" title="TypeScript, Kubernetes, Rust, Swift, Framework, Flask, GraphQL, Ansible, Continuous integration, Serverless, PWA, Testing, Terraform, Haskell, Monitoring, Blockchain, Flutter, golang, SwiftUI, Reverse Engineering, containers, crawler, cloud-native, Erlang, tui, dataset, editor, cncf, css-framework, gRPC, proxy, design-system, workflow, service-mesh, tunnel, graph-database, reverse-proxy, chat, openapi, distributed-tracing, continuous-delivery, Authentication, swagger, lambda, load-testing, faas, crawling, scheduler, proxypool, rbac, benchmarking">and 51 more...</div>
                         </div>
                     </section>
                 </div>
